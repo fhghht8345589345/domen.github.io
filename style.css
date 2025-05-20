@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container{
+    width: 95%;
+   margin: 0 auto;
+
+}
+
+.header_right{
+display: flex;
+align-items: center;
+
+}
+
+.text{
+padding: 30px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #004BD6;
+
+}
+
+.button{
+width: 281px;
+height: 54px;
+background:rgb(23, 25, 150);
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.bs_right{
+width: 900px;
+height: 800px;
+background:green;
+margin-left: 400px;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+color: aliceblue;
+}
+
+.bs_main{
+    display: flex;
+    
+}
+
+#gg1{
+width: 80PX;
+height: 80px;
+
+}
+
+#kufi{
+display: flex;
+justify-content:space-between ;
+}
+#klicer{
+background: rgb(54, 2, 151);
+width:200px ;
+height: 300px;
+right: 30px;
+right: 700px;
+top: 300px;
+position: absolute;
+}
+
+#button{
+width: 100px;
+height: 50px;
+position: absolute;
+left: 45px;
+top: 190px;
+background: #6112c2;
+border-radius: 20px;
+transition: 1s;
+
+}
+
+#gg{
+position: absolute;
+left: 60px;
+top: 70px;
+
+}
+
+#ENG{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+}
+#blerinacapuchino{
+    position: absolute;
+    left: 73px;
+    top: 165px;
+}
+.money{
+width: 20px;
+height: 20px;
+position: absolute;
+right: 820px;
+top: 320px;
+color: rgb(255, 251, 251);
+}
+
+
+
+
+#button:hover{
+    transform: scale(1.3);
+}
